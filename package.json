@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "shopping listbuilt with MERN",
+  "main": "server.js",
+  "scripts": {
+    "start": "node derver.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/april7229/react.git"
+  },
+  "author": "april",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/april7229/react/issues"
+  },
+  "homepage": "https://github.com/april7229/react#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
